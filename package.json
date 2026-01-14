@@ -1,0 +1,49 @@
+{
+  "name": "vue-vite-ts-bc",
+  "version": "0.1.0",
+  "description": "A Vue Vite Typescript template for use as a ControlAddIn in Business Central",
+  "license": "MIT",
+  "author": "Florian Noever",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Florian-Noever/bc-controladdin-vue-vite-ts-template"
+  },
+  "bugs": {
+    "url": "https://github.com/Florian-Noever/bc-controladdin-vue-vite-ts-template/issues"
+  },
+  "homepage": "https://github.com/Florian-Noever/bc-controladdin-vue-vite-ts-template",
+  "keywords": [
+    "vue",
+    "template",
+    "typescript",
+    "vite",
+    "template-project",
+    "bc",
+    "vue-vite",
+    "al",
+    "business-central",
+    "control-addin"
+  ],
+  "imports": {
+    "#/*": "./src/*"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@floriannoever/bc-controladdin-helper": "^1.0.3",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vue": "^3.5.24"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vue-tsc": "^3.1.4"
+  }
+}
